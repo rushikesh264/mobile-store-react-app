@@ -7,10 +7,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-        <NavWrapper className="navbar navbar-expand-lg navbar-dark  px-sm-5" >
+        <NavWrapper className="navbar navbar-expand-lg navbar-primary  px-sm-5" >
             
             <Link to="/" className="nav-link" >
-                <span style={{fontSize:"30px",fontweight:"bolder"}}><img src={Shopcart} height="50"width="50" alt="Shopcart" className="navbar-brand"/> Quickshop</span>
+                <span style={{fontSize:"30px",fontweight:"bolder"}}><img src={Shopcart} height="50"width="50" alt="Shopcart" className="navbar-brand"/> Mobileshop</span>
             </Link>
             
             <Link to="/cart" className="ml-auto">
@@ -28,7 +28,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-    background-color:blue;
+    background-color:rgba(190,120,250,0.9);
     box-shadow:1px 1px 2px 1px black !important;
     .nav-link{
         color:white !important;
