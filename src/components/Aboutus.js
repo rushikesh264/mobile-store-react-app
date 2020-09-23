@@ -6,7 +6,7 @@ function Aboutus() {
      <div className="container mx-auto  center m-5 p-5">
         <div className="row align-items-center">
             <div className="col text-center ">
-                <img class="center-block"  src={Abo} width="100%" height="100%"/>
+                <img class="center-block"  src={Abo} alt="aboutus" width="100%" height="100%"/>
             </div>
             <div className="col text-center mt-5 text-justify-center">
                 <div className="row">

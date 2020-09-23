@@ -8,7 +8,7 @@ export default function EmptyCart() {
             <div className="container my-5 py-5  ">
                 <div className="row">
                     <div className="col-10 mx-auto text-center text-title">
-                        <img src={ImgEmpty} width="50%" height="70%"/>
+                        <img src={ImgEmpty} alt="Empty" width="50%" height="70%"/>
                     </div>
                     <div className="col-10 mx-auto text-center text-title ">
                         <Link to="/">

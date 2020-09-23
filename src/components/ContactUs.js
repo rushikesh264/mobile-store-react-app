@@ -5,7 +5,7 @@ function ContactUs() {
     <div className="container mx-auto  center mt-2">
         <div className="row align-items-center">
             <div className="col text-center ">
-                <img class="center-block"  src={Cont} width="100%" height="100%"/>
+                <img class="center-block"  src={Cont}  alt="contactus" width="100%" height="100%"/>
             </div>
             <div className="col text-center mt-5 text-justify-center">
                 <div className="row">
